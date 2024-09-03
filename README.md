@@ -17,7 +17,7 @@ Projetinho desenvolvido durante as aulas de evolução de layouts 🎨 <a href="
 <br>
 
 <p align="center">
-  <img alt="License" src="https://github.com/user-attachments/assets/0a0769be-d4ea-4319-b1e7-8f0a729de607">
+  <img alt="License" src="https://github.com/user-attachments/assets/30750b7b-e23c-4da2-be10-4799cd37249b">
 </p>
 
 <br>
