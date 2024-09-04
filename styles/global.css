@@ -25,7 +25,25 @@ html {
 }
 
 body {
+  font-family: var(--font-family);
   font-size: 1.6rem;
+
   color: var(--text-color-secondary);
   background-color: var(--background-color);
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  color: inherit; /*Herdar*/
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--brand-color);
+  text-decoration: underline;
+
+  transition: all 200ms;
 }
