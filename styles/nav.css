@@ -7,11 +7,13 @@ nav {
   padding-block: 2rem;
 }
 
+
+/* Lista de navegação */
 ul {
   display: flex;
   align-items: center;
 
-  gap: 2rem;
+  gap: 2.4rem;
 }
  
 nav ul li:first-child img {

@@ -16,8 +16,8 @@
   --font-family: "Poppins", sans-serif;
   --text: 1.6rem/1.5 var(--font-family);
   --text-lg: bold 3.2rem/125% var(--font-family);
-  --text-md: bold 1.4rem/175% var(--font-family);
-  --text-sm: bold 1.2rem/175% var(--font-family);
+  --text-md: normal 1.4rem/170% var(--font-family);
+  --text-sm: bold 1.2rem/170% var(--font-family);
 }
 
 html {
@@ -46,4 +46,15 @@ a:hover {
   text-decoration: underline;
 
   transition: all 200ms;
+}
+
+#app {
+  background-color: var(--surface-color);
+}
+
+/* Definições globais do layout */
+.container {
+  padding-inline: 3.2rem;
+  max-width: 192rem;
+  margin-inline: auto;
 }

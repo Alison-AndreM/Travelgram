@@ -1,0 +1,40 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding-block: 3.2rem;
+
+  font: var(--text-md);
+  color: var(--text-color-secondary);
+}
+
+#profile {
+  max-width: 59.2rem;
+  display: flex;
+  gap: 3.2rem;
+}
+
+#profile h1 {
+  font: var(--text-lg);
+  color: var(--text-color-primary);
+
+  margin-bottom: 0.8rem;
+}
+
+#info {
+  width: 28rem;
+
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+#info li {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+
+  cursor: pointer;
+}
