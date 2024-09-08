@@ -7,6 +7,10 @@ nav {
   padding-block: 2rem;
 }
 
+nav a:nth-child(1) {
+  margin-bottom: 1.6rem;
+}
+
 
 /* Lista de navegação */
 ul {
@@ -26,4 +30,10 @@ nav ul li:last-child img {
 
   object-fit: cover;
   border: 50%;
+}
+
+@media (max-width: 480px) {
+  nav {
+    flex-direction: column;
+  }
 }

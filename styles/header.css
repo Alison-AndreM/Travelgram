@@ -22,6 +22,13 @@ header {
   margin-bottom: 0.8rem;
 }
 
+#profile img {
+  max-width: 17.4rem;
+  max-height: 17.4rem;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
 #info {
   width: 28rem;
 
@@ -37,4 +44,36 @@ header {
   gap: 0.8rem;
 
   cursor: pointer;
+}
+
+@media (max-width: 480px) {
+  header {
+    flex-direction: column;
+    gap: 2.4rem;
+
+    padding-top: 1rem;
+  }
+
+  #profile {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #profile h1 {
+    text-align: center;
+  }
+
+  #profile p {
+    text-align: center;
+  }
+
+  #info {
+    width: 100%;
+    flex-direction: row;
+  }
+
+  #info span {
+    text-align: center;
+  }
+
 }
