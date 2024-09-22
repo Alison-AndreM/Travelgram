@@ -12,3 +12,9 @@ footer span:nth-child(1) {
 footer span {
   font: var(--text-md);
 }
+
+@media (max-width: 768px) { 
+  footer span {
+    font-size: 75%;
+  }
+}

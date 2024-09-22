@@ -46,7 +46,7 @@ header {
   cursor: pointer;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 768px) {
   header {
     flex-direction: column;
     gap: 2.4rem;
@@ -75,5 +75,7 @@ header {
   #info span {
     text-align: center;
   }
-
+  #info li img {
+    width: 14%;
+  }
 }
